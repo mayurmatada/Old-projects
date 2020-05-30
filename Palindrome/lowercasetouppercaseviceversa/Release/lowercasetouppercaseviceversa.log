@@ -1,0 +1,6 @@
+﻿  Source.cpp
+Source.cpp(14): warning C4018: '<=': signed/unsigned mismatch
+  Generating code
+  All 89 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  lowercasetouppercaseviceversa.vcxproj -> C:\Users\Mayur\source\repos\Palindrome\Release\lowercasetouppercaseviceversa.exe

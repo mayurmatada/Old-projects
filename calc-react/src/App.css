@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(5, 52, 71);
+}
+
+.calc-wrapper {
+  outline: solid rgb(5, 52, 71);
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}

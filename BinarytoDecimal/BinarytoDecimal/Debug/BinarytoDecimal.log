@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\mayur\source\repos\binarytodecimal\binarytodecimal\source.cpp(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  BinarytoDecimal.vcxproj -> C:\Users\Mayur\source\repos\BinarytoDecimal\Debug\BinarytoDecimal.exe

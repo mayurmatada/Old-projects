@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": ["C:\\Users\\Mayur\\source\\Intellisense"],
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "C:\\Users\\Mayur\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.jediEnabled": false
+}

@@ -1,0 +1,13 @@
+.bttnCSS {
+  display: flex;
+  height: 2em;
+  width: 2em;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #ffa52e;
+  color: rgb(5, 52, 71);
+  outline: 1px solid rgb(5, 52, 71);
+}

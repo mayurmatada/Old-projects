@@ -1,0 +1,795 @@
+!SESSION 2019-12-06 17:39:13.689 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -data C:\Users\Mayur\source\repos -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-06 17:39:29.412
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mayur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2019-12-06 17:44:37.248
+!MESSAGE Connection to http://download.eclipse.org/releases/2019-09/201909181001/plugins/org.eclipse.wst.css.core_1.2.0.v201904210526.jar.pack.gz failed on download.eclipse.org:80 failed to respond. Retry attempt 0 started
+!STACK 0
+org.apache.http.NoHttpResponseException: download.eclipse.org:80 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-12-06 17:47:35.380 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data file:/C:/Users/Mayur/source/repos/ -product org.eclipse.epp.package.cpp.product
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-12-06 17:48:18.306
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2019-12-06 17:48:21.198
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-12-06 17:48:21.198
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-12-06 17:48:22.288
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-12-06 17:48:22.350
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-06 17:48:36.283
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mayur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:49:00.914
+!MESSAGE Initializing CodeMix Engine's settings file at C:\Users\Mayur\source\repos\.metadata\codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:49:00.979
+!MESSAGE Verifying CodeMix Engine runtime integrity...
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:49:00.998
+!MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Mayur\.p2\pool\artifacts.xml]
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:49:01.767
+!MESSAGE Integrity check PASSED
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:49:02.227
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-12-06 17:51:20.274 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -product org.eclipse.epp.package.cpp.product -data file:/C:/Users/Mayur/source/repos/ -product org.eclipse.epp.package.cpp.product
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-12-06 17:51:26.097
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-12-06 17:51:45.991
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Mayur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:52:06.433
+!MESSAGE Verifying CodeMix Engine runtime integrity...
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:52:06.444
+!MESSAGE IntegrityCheck: Artifacts located at: [C:\Users\Mayur\.p2\pool\artifacts.xml]
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:52:06.485
+!MESSAGE Integrity check PASSED
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-12-06 17:52:07.646
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.python.pydev.shared_core 1 1 2019-12-06 17:55:09.302
+!MESSAGE Information about process of adding new interpreter:
+- Opening dialog to request executable (or jar).
+- Chosen interpreter (name and file):'NameAndExecutable [python -- C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Making exec... "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.6</version>
+<executable>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe</executable>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64</lib>
+<lib>C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_blake2</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_pickle</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha1</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha3</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winapi</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>werkzeug</forced_lib>
+<forced_lib>winreg</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>36</value></string_substitution_var>
+</xml>
+
+!STACK 0
+java.lang.RuntimeException: Information about process of adding new interpreter:
+- Opening dialog to request executable (or jar).
+- Chosen interpreter (name and file):'NameAndExecutable [python -- C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe]
+- Ok, file is non-null. Getting info on:C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Making exec... "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe" -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.6</version>
+<executable>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe</executable>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64</lib>
+<lib>C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages</lib>
+<lib>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_blake2</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_pickle</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha1</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha3</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winapi</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>werkzeug</forced_lib>
+<forced_lib>winreg</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>36</value></string_substitution_var>
+</xml>
+
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterEditor.getNewInputObject(AbstractInterpreterEditor.java:1043)
+	at org.python.copiedfromeclipsesrc.PythonListEditor.addPressed(PythonListEditor.java:142)
+	at org.python.copiedfromeclipsesrc.PythonListEditor$1.widgetSelected(PythonListEditor.java:259)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3986)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3585)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.python.pydev.shared_core 1 1 2019-12-06 17:55:30.136
+!MESSAGE Restoring info for: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:453)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:279)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:576)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterEditor$13.run(AbstractInterpreterEditor.java:1184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: Expecting: C:\Users\Mayur\source\repos\.metadata\.plugins\org.python.pydev\v1_9k0pdc2n8t5nkjc98j5yl9civ\modulesKeys to exist (and be a file).
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:296)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:400)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:451)
+	... 4 more
+
+!ENTRY org.python.pydev.shared_core 1 1 2019-12-06 17:56:44.665
+!MESSAGE Finished restoring information for: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe at: C:\Users\Mayur\source\repos\.metadata\.plugins\org.python.pydev\v1_9k0pdc2n8t5nkjc98j5yl9civ
+!STACK 0
+java.lang.RuntimeException: Finished restoring information for: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe at: C:\Users\Mayur\source\repos\.metadata\.plugins\org.python.pydev\v1_9k0pdc2n8t5nkjc98j5yl9civ
+	at org.python.pydev.core.log.Log.logInfo(Log.java:45)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:498)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:279)
+	at org.python.pydev.ast.interpreter_managers.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:576)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterEditor$13.run(AbstractInterpreterEditor.java:1184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-12-06 17:56:50.840
+!MESSAGE Info: Rebuilding internal caches: C:\Users\Mayur\source\repos\.metadata\.plugins\com.python.pydev.analysis\python_v1_9k0pdc2n8t5nkjc98j5yl9civ\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-12-06 18:03:37.191
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:pandas._libs.algos
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pycompletionserver.py 59946
+
+ - Environment:
+ADSK_CLM_WPAD_PROXY_CHECK=FALSE
+ALLUSERSPROFILE=C:\ProgramData
+AML_VSAI_ENABLED=TRUE
+APPDATA=C:\Users\Mayur\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-28127FLA
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\Mayur
+LOCALAPPDATA=C:\Users\Mayur\AppData\Local
+LOGONSERVER=\\LAPTOP-28127FLA
+NUMBER_OF_PROCESSORS=4
+OMP_NUM_THREADS=4
+ONEDRIVE=C:\Users\Mayur\OneDrive
+ONEDRIVECONSUMER=C:\Users\Mayur\OneDrive
+ONLINESERVICES=Online Services
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Mayur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mayur\Downloads;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLATFORMCODE=KV
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pydev_sitecustomize;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages
+REGIONCODE=NA
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\Mayur\AppData\Local\Temp
+TMP=C:\Users\Mayur\AppData\Local\Temp
+USERDOMAIN=LAPTOP-28127FLA
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-28127FLA
+USERNAME=Mayur
+USERPROFILE=C:\Users\Mayur
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\Mayur\eclipse\cpp-2019-09\eclipse\..\..\..\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:455)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:507)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:693)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:757)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:376)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:179)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:951)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:790)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:379)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:256)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-12-06 18:05:26.383
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:tensorflow_core.compiler.tf2xla.ops._xla_ops
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pycompletionserver.py 59952
+
+ - Environment:
+ADSK_CLM_WPAD_PROXY_CHECK=FALSE
+ALLUSERSPROFILE=C:\ProgramData
+AML_VSAI_ENABLED=TRUE
+APPDATA=C:\Users\Mayur\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-28127FLA
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\Mayur
+LOCALAPPDATA=C:\Users\Mayur\AppData\Local
+LOGONSERVER=\\LAPTOP-28127FLA
+NUMBER_OF_PROCESSORS=4
+OMP_NUM_THREADS=4
+ONEDRIVE=C:\Users\Mayur\OneDrive
+ONEDRIVECONSUMER=C:\Users\Mayur\OneDrive
+ONLINESERVICES=Online Services
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Mayur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mayur\Downloads;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLATFORMCODE=KV
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pydev_sitecustomize;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages
+REGIONCODE=NA
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\Mayur\AppData\Local\Temp
+TMP=C:\Users\Mayur\AppData\Local\Temp
+USERDOMAIN=LAPTOP-28127FLA
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-28127FLA
+USERNAME=Mayur
+USERPROFILE=C:\Users\Mayur
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\Mayur\eclipse\cpp-2019-09\eclipse\..\..\..\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:455)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:507)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:693)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:757)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:376)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:179)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:951)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:790)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:379)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:256)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-12-06 18:05:38.244
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:tensorflow_core.lite.experimental.microfrontend.python.ops._audio_microfrontend_op
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pycompletionserver.py 59977
+
+ - Environment:
+ADSK_CLM_WPAD_PROXY_CHECK=FALSE
+ALLUSERSPROFILE=C:\ProgramData
+AML_VSAI_ENABLED=TRUE
+APPDATA=C:\Users\Mayur\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-28127FLA
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\Mayur
+LOCALAPPDATA=C:\Users\Mayur\AppData\Local
+LOGONSERVER=\\LAPTOP-28127FLA
+NUMBER_OF_PROCESSORS=4
+OMP_NUM_THREADS=4
+ONEDRIVE=C:\Users\Mayur\OneDrive
+ONEDRIVECONSUMER=C:\Users\Mayur\OneDrive
+ONLINESERVICES=Online Services
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Mayur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mayur\Downloads;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLATFORMCODE=KV
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pydev_sitecustomize;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages
+REGIONCODE=NA
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\Mayur\AppData\Local\Temp
+TMP=C:\Users\Mayur\AppData\Local\Temp
+USERDOMAIN=LAPTOP-28127FLA
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-28127FLA
+USERNAME=Mayur
+USERPROFILE=C:\Users\Mayur
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\Mayur\eclipse\cpp-2019-09\eclipse\..\..\..\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:455)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:507)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:693)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:757)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:376)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:179)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:951)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:790)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:379)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:256)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-12-06 18:05:47.820
+!MESSAGE ERROR reading shell. Message sent: @@IMPORTS:tensorflow_core.lite.python.interpreter_wrapper._tensorflow_wrap_interpreter_wrapper
+END@@
+
+ProcessInfo:
+
+ - Executed: C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe -u C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pycompletionserver.py 59986
+
+ - Environment:
+ADSK_CLM_WPAD_PROXY_CHECK=FALSE
+ALLUSERSPROFILE=C:\ProgramData
+AML_VSAI_ENABLED=TRUE
+APPDATA=C:\Users\Mayur\AppData\Roaming
+COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+COMMONPROGRAMW6432=C:\Program Files\Common Files
+COMPUTERNAME=LAPTOP-28127FLA
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+HOMEDRIVE=C:
+HOMEPATH=\Users\Mayur
+LOCALAPPDATA=C:\Users\Mayur\AppData\Local
+LOGONSERVER=\\LAPTOP-28127FLA
+NUMBER_OF_PROCESSORS=4
+OMP_NUM_THREADS=4
+ONEDRIVE=C:\Users\Mayur\OneDrive
+ONEDRIVECONSUMER=C:\Users\Mayur\OneDrive
+ONLINESERVICES=Online Services
+OS=Windows_NT
+PATH=C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Mayur\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mayur\Downloads;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLATFORMCODE=KV
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+PROGRAMDATA=C:\ProgramData
+PROGRAMFILES(X86)=C:\Program Files (x86)
+PROGRAMFILES=C:\Program Files
+PROGRAMW6432=C:\Program Files
+PROMPT=$P$G
+PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+PYTHONPATH=C:\Users\Mayur\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc\pydev_sitecustomize;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\DLLs;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64;C:\Users\Mayur\AppData\Roaming\Python\Python36\site-packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\site-packages
+REGIONCODE=NA
+SESSIONNAME=Console
+SYSTEMDRIVE=C:
+SYSTEMROOT=C:\WINDOWS
+TEMP=C:\Users\Mayur\AppData\Local\Temp
+TMP=C:\Users\Mayur\AppData\Local\Temp
+USERDOMAIN=LAPTOP-28127FLA
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-28127FLA
+USERNAME=Mayur
+USERPROFILE=C:\Users\Mayur
+WINDIR=C:\WINDOWS
+
+ - Working Dir:
+C:\Users\Mayur\eclipse\cpp-2019-09\eclipse\..\..\..\.p2\pool\plugins\org.python.pydev.core_7.4.0.201910251334\pysrc
+
+ - OS:
+Windows 10
+
+ - Std output:
+
+
+ - Err output:
+
+!STACK 0
+java.net.SocketTimeoutException
+	at sun.nio.ch.SocketAdaptor$SocketInputStream.read(Unknown Source)
+	at sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.io.InputStream.read(Unknown Source)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:455)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.read(AbstractShell.java:507)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.writeAndGetResults(AbstractShell.java:693)
+	at org.python.pydev.ast.codecompletion.shell.AbstractShell.getImportCompletions(AbstractShell.java:757)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.createTokensFromServer(CompiledModule.java:376)
+	at org.python.pydev.ast.codecompletion.revisited.modules.CompiledModule.<init>(CompiledModule.java:179)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModule(AbstractModule.java:293)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:951)
+	at org.python.pydev.ast.codecompletion.revisited.ModulesManager.getModule(ModulesManager.java:790)
+	at org.python.pydev.ast.codecompletion.revisited.SystemModulesManager.getModule(SystemModulesManager.java:379)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:256)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:160)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder.syncInfoToPythonPath(InterpreterInfoBuilder.java:86)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManager.synchronizeManagerToNameToInfoPythonpath(SyncSystemModulesManager.java:392)
+	at org.python.pydev.ast.codecompletion.revisited.SyncSystemModulesManagerScheduler$SynchJob.run(SyncSystemModulesManagerScheduler.java:257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
